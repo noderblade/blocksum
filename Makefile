@@ -1,5 +1,5 @@
 TARGET = bsum
-LIBS = -lm
+LIBS = -lm -lcrypto
 CC = gcc
 CFLAGS = -g -Wall
 
