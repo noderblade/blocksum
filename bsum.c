@@ -1,5 +1,7 @@
 #define DEF_PROGRAM_NAME "bsum"
 #define DEF_AUTHOR "Marcin Strągowski <marcin.stragowski@gmail.com>"
+#define DEF_LICENSE ""
+
 
 #include <stdio.h>
 #include <stdlib.h>
