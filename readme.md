@@ -19,6 +19,7 @@ make
 
 ### Arch linux install
 Use any aur package manager - for example `yay`:
+
 `yay -S bsum`
 
 ## Usage
@@ -33,9 +34,11 @@ Options:
 
 ### Examples
 To read a file in 1MB blocks with progress displayed and safe output to output.sha512:
+
 `./bsum --progress --blocksize 1M --device /path/to/file > output.sha512`
 
 To use the default block size (1GB):
+
 `./bsum --device /path/to/file`
 
 ## Contributing
