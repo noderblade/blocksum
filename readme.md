@@ -17,6 +17,10 @@ To compile the utility, navigate to the code directory and run:
 
 make
 
+### Arch linux install
+Use any aur package manager - for example `yay`:
+`yay -S bsum`
+
 ## Usage
 Execute the utility from the command line, specifying the block size and the file or device to read.
 
